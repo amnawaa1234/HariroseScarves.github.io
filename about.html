@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Harirose</title>
+
+    <link rel="icon" href="images/logoharirose.png">
+
+    <audio controls hidden="true" autoplay="true">
+        <source src="audio/massobeats-honey-jam-royalty-free-lofi-music-128-ytshorts.savetube.me.mp3" type="audio/mpeg">
+      </audio>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+    <style>
+        .heading{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 20px auto;
+        }
+        .heading h1{
+            font-size: 50px;
+            color: #000;
+            margin-bottom: 25px;
+            position: relative;
+            padding-top: 20px;
+        }
+        @media(max-width:630px){
+            .heading h1{
+                font-size: 50px;
+                transition: .4s;
+            }
+            .heading p{
+                font-size: 10px;
+                transition: .4s;
+            }
+        }
+        .heading h1::after{
+            
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            display: block;
+            margin:0 auto ;
+            background-color: #333;
+        }
+        .heading p{
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 35px;
+        }
+        .container{
+            width: 90%;
+            margin:0 auto;
+            padding:10px 20px;
+        }
+        .about{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .about-image{
+            flex: 1;
+            margin-right: 40px;
+            overflow: hidden;
+        }
+        .about-image img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            transition: 0.5s ease;
+        }
+        .about-image:hover img{
+            transform: scale(1.2);
+        }
+        .about-content{
+            flex: 1;
+        }
+        .about-content h2{
+            font-size: 23px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .about-content p{
+            font-size: 18px;
+            line-height: 1.5;
+            color: #666;
+        }
+        @media screen and (max-width: 768px){
+            .heading{
+                padding: 0px 20px;
+            }
+            .heading h1{
+                font-size: 36px;
+            }
+            .heading p{
+                font-size: 17px;
+                margin-bottom: 2px;
+            }
+            .container{
+                padding: 0px;
+            }
+            .about{
+                padding: 20px;
+                flex-direction: column;
+            }
+            .about-image{
+                margin-right: 0px;
+                margin-bottom: 20px;
+            }
+            .about-content p{
+                padding: 0px;
+                font-size: 16px;
+            }
+
+        }
+        .fade-in {
+            opacity: 0; 
+            transform: translateY(20px); 
+            transition: opacity 1s ease-out, transform 1s ease-out; 
+        }
+
+        .fade-in.visible {
+            opacity: 1; 
+            transform: translateY(0); 
+        }
+</style>
+
+    <script src="java.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/logoharirose.png" alt=""></a>
+
+    <ul class="navmenu">
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="products.html">Products</a>
+            <div class="dropdown-content">
+                <a href="innercap.html">Innercap</a>
+                <a href="squarescarf.html">Square Scarf</a>
+                <a href="shawlscarf.html">Shawl Scarf</a>
+              </div></li>
+        <li><a href="contact.html">Concierge</a></li>
+    </ul>
+
+    <div class="nav-icon">
+        <a href="#"><i class='bx bx-search'></i></a>
+        <a href="userlogin.html"><i class='bx bx-user'></i></a>
+        <a href="shoppingcart.html"><i class='bx bx-cart'></i></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    </div>
+    </header>
+    <br><br><br>
+    <div class="heading">
+        <h1>About Us</h1>
+        <center> SEKUNTUM </center>  
+        <br>
+    </div>
+    <div class="container">
+        <section class="about fade-in">
+            <div class="about-image">
+                <img src="aboutus.jpg">
+            </div>
+            <div class="about-content">
+               <center><h2>SEKUNTUM</h2></center> 
+                <p align="justify"> The name Sekuntum reminds us of Sharifah Rose.
+                Her strong and authentic personality.
+                How she always chooses to bloom.
+                Like a bunch of beautiful, fresh flowers.
+                 
+                No matter what she goes through, she always chooses to rise up.
+                Because when there's no rain, there's no flowers.
+                 
+                She's not afraid to be her real self in a room full of people.
+                She's proud of her journey, her success and most importantly her self.
+                 
+                And that is what Sekuntum is about.
+                Self-love, self-growth and self-confidence.
+                 
+                Sekuntum is here to remind you — everyone's blooming in our own way.
+                We're all different but we're all here trying.
+                We're all here with different stories and journeys.
+                At the end of the day, all that matters is that we're proud of being our own true selves.</p>
+                <br><br>
+                <p><strong>Creation Date:</strong> <em>December 29, 2024</em></p>
+                <p><strong>Last Updated:</strong> <em>January 28, 2025</em></p>
+            </div>
+        </section>
+
+        
+    </div>
+
+    <footer>
+        <div class="center-flex"><img src="images/harirose.png" width="10%" alt=""></div>
+
+        <div class="social">
+            <a href="https://www.instagram.com/iniharirose?igsh=MTN5eWloemlwbnB6cA=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/iniharirosebysharifahrose"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@iniharirose?_t=ZS-8t7avpa0Nda&_r=1"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="products.html">Products</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © 2025 Harīrose. Powered by Harīrose.
+        </p>
+        <br>
+        <p style="text-align: center; font-size: 14px; color: gray; background-color: transparent;">
+            This website is a non-commercial recreation created for educational and demonstrational purposes only. All images, trademarks, and copyrighted materials are the property of Harirose Scarves. No copyright infringement intended. For the original content, please visit the official Harirose Scarves website <a href="http://www.harirose.com" class="trademarks">here</a>.
+        </p>
+    </footer>
+
+</body>
+</html>

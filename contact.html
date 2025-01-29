@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reach Us - Harirose</title>
+
+    <link rel="icon" href="images/logoharirose.png">
+
+    <audio controls hidden="true" autoplay="true">
+        <source src="audio/massobeats-honey-jam-royalty-free-lofi-music-128-ytshorts.savetube.me.mp3" type="audio/mpeg">
+      </audio>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="java.js"></script>
+
+    <style>
+       .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            padding-top: 50px;
+            transform: translate(-3.5%);
+       }
+
+        .center h3, h4{
+            text-align: center;
+            padding: 0 0 40px 0;
+        }
+        
+        form{
+           padding: 0 40px;
+           box-sizing: border-box;
+        }
+
+        input[type=text] {
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 5px;
+            width: 150%;
+            font-size: 16px;
+    }
+
+        input[type=submit] {
+            width: 100%;
+            height: 50px;
+            border: 1px solid;
+            background: black;
+            border-radius: 25px;
+            font-size: 16px;
+            color: #e9f4fb;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            transform: translate(25%);
+    }
+
+    input[type=message] {
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 5px;
+            width: 200%;
+            height: 20vh;
+            font-size: 16px;
+            transform: translate(-11%);
+    }
+    
+    </style>
+
+    <script src="java.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/logoharirose.png" alt=""></a>
+
+    <ul class="navmenu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a>
+            <div class="dropdown-content">
+                <a href="innercap.html">Innercap</a>
+                <a href="squarescarf.html">Square Scarf</a>
+                <a href="shawlscarf.html">Shawl Scarf</a>
+              </div></li>
+        <li><a href="contact.html" class="active">Concierge</a></li>
+    </ul>
+
+    <div class="nav-icon">
+        <a href="#"><i class='bx bx-search' id="searchIcon"></i></a>
+        <a href="userlogin.html"><i class='bx bx-user'></i></a>
+        <a href="shoppingcart.html"><i class='bx bx-cart'></i></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    </div>
+    </header>
+
+    <main>
+        <section class="fade-in">
+            <article>
+                <center><img src="images/howcanwehelp-removebg-preview.png" width="60%"></center>
+                <br><br>
+                <center><h3>Hit us up with any questions in your mind or simply waving by dropping a hello to us!</h3></center>
+                <br><br>
+                <center><p>For customer service enquiries, email us at:</p></center>
+                <center><h4>hello@harirose.com</h4></center>
+            </article>
+            <br><br><br>
+            <article>
+                <center><h1>Reach Us</h1></center>
+            
+                <center><p>Reach us below with your inquiries and we'll try our best to respond within the next 24-48 hours.</p></center>
+                <br><br><br>
+                <div class="center">
+                    <form onsubmit="showAlert(event)">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="" required>
+                        <br><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="" required>
+                        <br><br>
+                        <label for="message">Message:</label><br>
+                        <input type="message" name="message" required><br><br>
+                        <input type="submit" value="Submit">
+                      </form>
+    
+                      
+                </div> 
+            </article>
+        </section>
+    </main>
+    <br><br><br>
+    <footer>
+        <div class="center-flex"><img src="images/harirose.png" width="10%" alt=""></div>
+
+        <div class="social">
+            <a href="https://www.instagram.com/iniharirose?igsh=MTN5eWloemlwbnB6cA=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/iniharirosebysharifahrose"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@iniharirose?_t=ZS-8t7avpa0Nda&_r=1"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="products.html">Products</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © 2025 Harīrose. Powered by Harīrose.
+        </p>
+        <br>
+        <p style="text-align: center; font-size: 14px; color: gray; background-color: transparent;">
+            This website is a non-commercial recreation created for educational and demonstrational purposes only. All images, trademarks, and copyrighted materials are the property of Harirose Scarves. No copyright infringement intended. For the original content, please visit the official Harirose Scarves website <a href="http://www.harirose.com" class="trademarks">here</a>.
+        </p>
+    </footer>
+</body>
+</html>
